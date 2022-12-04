@@ -1,17 +1,17 @@
 {
   "name": "serverless-plugin-cfauthorizer",
-  "version": "0.2.4",
-  "description": "Kenneth Falck <kennu@sc5.io> 2016",
+  "version": "0.2.4-test",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "https",
-    "url": "https://github.com/SC5/serverless-plugin-cfauthorizer"
+    "url": "https://github.com/naok1207/serverless-plugin-cfauthorizer"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "homepage": "https://github.com/SC5/serverless-plugin-cfauthorizer"
+  "homepage": "https://github.com/naok1207/serverless-plugin-cfauthorizer"
 }
