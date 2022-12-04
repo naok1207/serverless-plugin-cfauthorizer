@@ -17,7 +17,7 @@ class UserPoolPlugin {
     this.serverless.service.getAllFunctions().map(functionName => {
       const func = this.serverless.service.getFunction(functionName)
       func.events.map(eventTypes => {
-        const http = eventTypes.http || eventTypes.httpApi
+        const http = eventTypes.httpApi
         if (http && http.cfAuthorizer) {
           if (!this.cfAuthorizers[http.path]) {
             this.cfAuthorizers[http.path] = {}
